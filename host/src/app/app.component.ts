@@ -15,7 +15,6 @@ export class AppComponent implements OnInit {
   constructor(private routeLoader: RouteLoaderService, private router: Router) {}
 
   ngOnInit() {
-    //debugger;
     this.routeLoader.loadRoutes().subscribe({
       next: (routes) => {
        this.router.config = [...this.router.config, ...routes];
