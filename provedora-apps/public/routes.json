@@ -1,0 +1,14 @@
+[
+  {
+    "path":"mfe-app-01",
+    "type": "module",
+    "remoteEntry": "http://localhost:3000/extensions/mfe-app-01/remoteEntry.js",
+    "exposedModule":"./Component"
+  },
+  {
+    "path":"mfe-app-02",
+    "type": "module",
+    "remoteEntry": "http://localhost:3000/extensions/mfe-app-02/remoteEntry.js",
+    "exposedModule":"./Component"
+  }
+]
